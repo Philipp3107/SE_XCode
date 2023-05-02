@@ -14,6 +14,12 @@
 		4EC3DFFE29FFDECC0047BE6A /* LogbuchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3DFFD29FFDECC0047BE6A /* LogbuchTests.swift */; };
 		4EC3E00829FFDECC0047BE6A /* LogbuchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3E00729FFDECC0047BE6A /* LogbuchUITests.swift */; };
 		4EC3E00A29FFDECC0047BE6A /* LogbuchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3E00929FFDECC0047BE6A /* LogbuchUITestsLaunchTests.swift */; };
+		4EC3E0172A00F25D0047BE6A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3E0162A00F25D0047BE6A /* User.swift */; };
+		4EC3E0192A00F4100047BE6A /* Licens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3E0182A00F4100047BE6A /* Licens.swift */; };
+		4EC3E01B2A00F43C0047BE6A /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3E01A2A00F43C0047BE6A /* Authorization.swift */; };
+		4EC3E01D2A00F4610047BE6A /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3E01C2A00F4610047BE6A /* Log.swift */; };
+		4EC3E01F2A00F4850047BE6A /* Logbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3E01E2A00F4850047BE6A /* Logbook.swift */; };
+		4EC3E0212A00F4D80047BE6A /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC3E0202A00F4D80047BE6A /* Name.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		4EC3E00329FFDECC0047BE6A /* LogbuchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogbuchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC3E00729FFDECC0047BE6A /* LogbuchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogbuchUITests.swift; sourceTree = "<group>"; };
 		4EC3E00929FFDECC0047BE6A /* LogbuchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogbuchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EC3E0162A00F25D0047BE6A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4EC3E0182A00F4100047BE6A /* Licens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Licens.swift; sourceTree = "<group>"; };
+		4EC3E01A2A00F43C0047BE6A /* Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
+		4EC3E01C2A00F4610047BE6A /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		4EC3E01E2A00F4850047BE6A /* Logbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logbook.swift; sourceTree = "<group>"; };
+		4EC3E0202A00F4D80047BE6A /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,12 @@
 			children = (
 				4EC3DFEB29FFDECB0047BE6A /* LogbuchApp.swift */,
 				4EC3DFED29FFDECB0047BE6A /* ContentView.swift */,
+				4EC3E0162A00F25D0047BE6A /* User.swift */,
+				4EC3E0182A00F4100047BE6A /* Licens.swift */,
+				4EC3E01A2A00F43C0047BE6A /* Authorization.swift */,
+				4EC3E01C2A00F4610047BE6A /* Log.swift */,
+				4EC3E01E2A00F4850047BE6A /* Logbook.swift */,
+				4EC3E0202A00F4D80047BE6A /* Name.swift */,
 				4EC3DFEF29FFDECC0047BE6A /* Assets.xcassets */,
 				4EC3DFF129FFDECC0047BE6A /* Logbuch.entitlements */,
 				4EC3DFF229FFDECC0047BE6A /* Preview Content */,
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC3E01F2A00F4850047BE6A /* Logbook.swift in Sources */,
 				4EC3DFEE29FFDECB0047BE6A /* ContentView.swift in Sources */,
+				4EC3E0192A00F4100047BE6A /* Licens.swift in Sources */,
+				4EC3E01D2A00F4610047BE6A /* Log.swift in Sources */,
 				4EC3DFEC29FFDECB0047BE6A /* LogbuchApp.swift in Sources */,
+				4EC3E0172A00F25D0047BE6A /* User.swift in Sources */,
+				4EC3E0212A00F4D80047BE6A /* Name.swift in Sources */,
+				4EC3E01B2A00F43C0047BE6A /* Authorization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

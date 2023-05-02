@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    //@AppStorage var user: User
     var body: some View {
         VStack {
             Color("Background")
